@@ -1,0 +1,12 @@
+C:\Users\Equipo\Documents\Programacion2\Semana 10-2semestre\SistemaNotas\SistemaNotas\bin\Debug\SistemaNotas.exe.config
+C:\Users\Equipo\Documents\Programacion2\Semana 10-2semestre\SistemaNotas\SistemaNotas\bin\Debug\SistemaNotas.exe
+C:\Users\Equipo\Documents\Programacion2\Semana 10-2semestre\SistemaNotas\SistemaNotas\bin\Debug\SistemaNotas.pdb
+C:\Users\Equipo\Documents\Programacion2\Semana 10-2semestre\SistemaNotas\SistemaNotas\obj\Debug\SistemaNotas.csproj.AssemblyReference.cache
+C:\Users\Equipo\Documents\Programacion2\Semana 10-2semestre\SistemaNotas\SistemaNotas\obj\Debug\SistemaNotas.Form1.resources
+C:\Users\Equipo\Documents\Programacion2\Semana 10-2semestre\SistemaNotas\SistemaNotas\obj\Debug\SistemaNotas.Properties.Resources.resources
+C:\Users\Equipo\Documents\Programacion2\Semana 10-2semestre\SistemaNotas\SistemaNotas\obj\Debug\SistemaNotas.csproj.GenerateResource.cache
+C:\Users\Equipo\Documents\Programacion2\Semana 10-2semestre\SistemaNotas\SistemaNotas\obj\Debug\SistemaNotas.csproj.CoreCompileInputs.cache
+C:\Users\Equipo\Documents\Programacion2\Semana 10-2semestre\SistemaNotas\SistemaNotas\obj\Debug\SistemaNotas.exe
+C:\Users\Equipo\Documents\Programacion2\Semana 10-2semestre\SistemaNotas\SistemaNotas\obj\Debug\SistemaNotas.pdb
+C:\Users\Equipo\Documents\Programacion2\Semana 10-2semestre\SistemaNotas\SistemaNotas\obj\Debug\SistemaNotas.exe.config
+C:\Users\Equipo\Documents\Programacion2\Semana 10-2semestre\SistemaNotas\SistemaNotas\obj\Debug\SistemaNotas.Vista.FrmCarrera.resources
