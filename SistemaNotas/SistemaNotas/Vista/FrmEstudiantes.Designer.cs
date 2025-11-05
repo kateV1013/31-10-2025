@@ -119,6 +119,8 @@
             this.dgvRegistro2.ReadOnly = true;
             this.dgvRegistro2.Size = new System.Drawing.Size(389, 180);
             this.dgvRegistro2.TabIndex = 0;
+            this.dgvRegistro2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvRegistro2_CellContentClick);
+            this.dgvRegistro2.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvRegistro2_CellMouseDoubleClick);
             // 
             // toolStrip1
             // 
@@ -143,6 +145,7 @@
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton1.Text = "Agregar";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // toolStripButton2
             // 
@@ -152,6 +155,7 @@
             this.toolStripButton2.Name = "toolStripButton2";
             this.toolStripButton2.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton2.Text = "Eliminar";
+            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
             // toolStripSeparator1
             // 
@@ -179,6 +183,7 @@
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(23, 22);
             this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // FrmEstudiantes
             // 

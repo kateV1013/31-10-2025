@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmDocentes));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -111,8 +111,8 @@
             // 
             this.dgvRegistro.AllowUserToAddRows = false;
             this.dgvRegistro.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.dgvRegistro.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.dgvRegistro.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvRegistro.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvRegistro.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvRegistro.Location = new System.Drawing.Point(3, 16);
@@ -120,6 +120,9 @@
             this.dgvRegistro.ReadOnly = true;
             this.dgvRegistro.Size = new System.Drawing.Size(389, 180);
             this.dgvRegistro.TabIndex = 0;
+            this.dgvRegistro.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvRegistro_CellContentClick);
+            this.dgvRegistro.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvRegistro_CellContentDoubleClick);
+            this.dgvRegistro.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dgvRegistro_MouseDoubleClick);
             // 
             // toolStrip1
             // 
@@ -144,6 +147,7 @@
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton1.Text = "Agregar";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // toolStripButton2
             // 
@@ -153,6 +157,7 @@
             this.toolStripButton2.Name = "toolStripButton2";
             this.toolStripButton2.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton2.Text = "Eliminar";
+            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
             // toolStripSeparator1
             // 
@@ -181,6 +186,7 @@
             this.btnBuscar.Size = new System.Drawing.Size(23, 22);
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            this.btnBuscar.DoubleClick += new System.EventHandler(this.btnBuscar_DoubleClick);
             // 
             // FrmDocentes
             // 

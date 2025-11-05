@@ -26,5 +26,15 @@ namespace SistemaNotas
         {
            this.Close();
         }
+
+        private void docenteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Vista.FrmDocentes().Show();
+        }
+
+        private void estudiantesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Vista.FrmEstudiantes().Show();
+        }
     }
 }

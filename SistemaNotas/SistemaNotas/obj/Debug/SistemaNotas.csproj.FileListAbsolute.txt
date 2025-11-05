@@ -10,3 +10,5 @@ C:\Users\Equipo\Documents\Programacion2\Semana 10-2semestre\SistemaNotas\Sistema
 C:\Users\Equipo\Documents\Programacion2\Semana 10-2semestre\SistemaNotas\SistemaNotas\obj\Debug\SistemaNotas.pdb
 C:\Users\Equipo\Documents\Programacion2\Semana 10-2semestre\SistemaNotas\SistemaNotas\obj\Debug\SistemaNotas.exe.config
 C:\Users\Equipo\Documents\Programacion2\Semana 10-2semestre\SistemaNotas\SistemaNotas\obj\Debug\SistemaNotas.Vista.FrmCarrera.resources
+C:\Users\Equipo\Documents\Programacion2\Semana 10-2semestre\SistemaNotas\SistemaNotas\obj\Debug\SistemaNotas.Vista.FrmDocentes.resources
+C:\Users\Equipo\Documents\Programacion2\Semana 10-2semestre\SistemaNotas\SistemaNotas\obj\Debug\SistemaNotas.Vista.FrmEstudiantes.resources
